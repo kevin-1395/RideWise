@@ -8,7 +8,7 @@ public class Ride {
     private double distance;
     private RideStatus status;
 
-    public Ride(int id, Rider rider, double distance, RideStatus status) {
+    public Ride(int id, Rider rider, double distance) {
         this.id = id;
         this.rider = rider;
         this.distance = distance;
